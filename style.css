@@ -1,4 +1,60 @@
 body{
     margin: 0;
     padding: 0;
+    background: #F0F2F5;
+}
+.tudo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 800px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:24.5%;
+    background: #fff;
+    text-align: center;
+}
+.bottomtexts{
+    text-align: left;
+    margin-top: 40px;
+    width: 1000px;
+    height: 130px;
+    font-size: 16px;
+}
+a{
+    margin: 6px;
+    text-decoration: none;
+    color: grey;
+}
+
+.conteudo{
+    position: absolute;
+    background-color: rgba(0, 128, 0, 0.404);
+    width: 1000px;
+    height: 670px;
+}
+
+.image1{
+    position: absolute;
+    width: 330px;
+    top: 45px;
+    left: -30px;
+}
+
+.subtitle{
+    position: absolute;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 100;
+    top: 110px;
+    width: 500px;
 }
